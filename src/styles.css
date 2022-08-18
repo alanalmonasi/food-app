@@ -63,3 +63,7 @@ input {
 .meal-cards {
   font-size: 0.6rem;
 }
+
+.span-price {
+  float: right;
+}

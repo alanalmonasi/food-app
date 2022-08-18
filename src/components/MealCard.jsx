@@ -27,14 +27,27 @@ export const MealCard = ({ name, id, image, price }) => {
             alt={name}
           />
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography
+              gutterBottom
+              variant="subtitle1"
+              component="div"
+              className="card-text"
+            >
               {name}
             </Typography>
             {/* <Typography gutterBottom variant="h6" component="span">
               {!!strArea}
             </Typography> */}
-            <Typography gutterBottom variant="h6" component="span">
-              <img src="src/icons/clock.png" width="15px" /> ${getPrice(price)}
+            <Typography gutterBottom variant="subtitle2" component="span">
+              <img src="src/icons/clock.png" width="15px" />
+            </Typography>
+            <Typography
+              gutterBottom
+              variant="subtitle2"
+              component="span"
+              className="span-price"
+            >
+              ${getPrice(price)}
             </Typography>
           </CardContent>
         </CardActionArea>
