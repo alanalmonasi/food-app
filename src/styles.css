@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  font-family: "Gotham", sans-serif;
+  margin: auto;
+}
+
+html {
+  font-size: 16px;
+  max-width: 1080px;
+  max-height: 1920px;
+}
+
+form,
+.calendar {
+  display: flex;
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 5px;
+}
+
+.content {
+  padding: 10px;
+  background-color: #e4e4e4;
+}
+
+.top-bar {
+  display: flex;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  background-color: #fff;
+  width: 100%;
+}
+
+#menu-2 {
+  float: right;
+}
+
+.alert {
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 0;
+  background-color: #f499973d;
+  width: fit-content;
+}
+
+.day {
+  font-weight: 500;
+}
+
+.add-dishes {
+  float: right;
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 0;
+  background-color: #f499973d;
+}
+
+.meal-cards {
+  font-size: 0.6rem;
+}
