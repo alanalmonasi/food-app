@@ -1,4 +1,4 @@
-# N-Queens problem
+# Food-App
 
 This project was created using [Create Vite](https://vitejs.dev/guide/).
 
