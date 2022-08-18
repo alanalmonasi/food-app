@@ -67,3 +67,8 @@ input {
 .span-price {
   float: right;
 }
+
+.MuiTypography-subtitle1,
+.MuiTypography-subtitle2 {
+  font-family: "Gotham", sans-serif;
+}
