@@ -21,8 +21,8 @@ export const MealCard = ({ name, id, image, price }) => {
         <CardActionArea>
           <CardMedia
             component="img"
-            maxHeight="300"
-            maxWidth="300"
+            maxheight="300"
+            maxwidth="300"
             image={image}
             alt={name}
           />
