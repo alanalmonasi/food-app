@@ -9,4 +9,4 @@ yarn install
 yarn dev
 ```
 
-You can visit the following link to see the project: https://myfoodapp-v1.netlify.app/
+You can visit the following link to see the project: https://myfoodapp-v01.netlify.app/
